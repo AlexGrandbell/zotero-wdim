@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "wdim@zoterowdim.local": {
+      "updates": [
+        {
+          "version": "0.1.3",
+          "update_link": "https://github.com/AlexGrandbell/zotero-wdim/releases/download/v0.1.3/zotero-wdim-0.1.3.xpi",
+          "update_hash": "sha256:ad9f75c682554110175882afb751485c5c706a4017fb2c5f353946b7e939e252",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

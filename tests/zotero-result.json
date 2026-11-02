@@ -1,0 +1,134 @@
+{
+  "version": "10.0.6",
+  "passed": true,
+  "checks": [
+    {
+      "name": "PDF mousemove handler records specified coordinates [{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0}]",
+      "passed": true
+    },
+    {
+      "name": "toolbar button mounted",
+      "passed": true
+    },
+    {
+      "name": "reader and PDF keyboard handlers mounted",
+      "passed": true
+    },
+    {
+      "name": "toolbar click arms placement",
+      "passed": true
+    },
+    {
+      "name": "Escape cancels placement",
+      "passed": true
+    },
+    {
+      "name": "macOS shortcut arms placement",
+      "passed": true
+    },
+    {
+      "name": "native text question created",
+      "passed": true
+    },
+    {
+      "name": "seven questions mounted in native window",
+      "passed": true
+    },
+    {
+      "name": "native-window burst has visible layout",
+      "passed": true
+    },
+    {
+      "name": "burst uses actual PDF mouse event rather than chrome helper {\"expected\":232,\"left\":232,\"styleLeft\":\"232px\",\"position\":\"fixed\",\"display\":\"block\",\"mouse\":{\"x\":300,\"y\":387},\"point\":{\"x\":300,\"y\":350},\"screen\":[0,37],\"size\":[1000,563],\"parent\":\"body\",\"ns\":\"http://www.w3.org/1999/xhtml\",\"events\":[{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0}]}",
+      "passed": true
+    },
+    {
+      "name": "PDF mousemove handler records specified coordinates [{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0},{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0}]",
+      "passed": true
+    },
+    {
+      "name": "moving PDF cursor changes actual burst layout 0",
+      "passed": true
+    },
+    {
+      "name": "PDF mousemove handler records specified coordinates [{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0},{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0},{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":500,\"sy\":487,\"cx\":0,\"cy\":0}]",
+      "passed": true
+    },
+    {
+      "name": "moving PDF cursor changes actual burst layout 1",
+      "passed": true
+    },
+    {
+      "name": "PDF mousemove handler records specified coordinates [{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0},{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":300,\"sy\":387,\"cx\":0,\"cy\":0},{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":500,\"sy\":487,\"cx\":0,\"cy\":0},{\"type\":\"mousemove\",\"trusted\":false,\"detail\":0,\"sx\":700,\"sy\":557,\"cx\":0,\"cy\":0}]",
+      "passed": true
+    },
+    {
+      "name": "moving PDF cursor changes actual burst layout 2",
+      "passed": true
+    },
+    {
+      "name": "native sidebar mouse events also update burst position",
+      "passed": true
+    },
+    {
+      "name": "100 repeated commands coalesce",
+      "passed": true
+    },
+    {
+      "name": "one animation container maximum",
+      "passed": true
+    },
+    {
+      "name": "toast is accessible",
+      "passed": true
+    },
+    {
+      "name": "saved to Zotero database",
+      "passed": true
+    },
+    {
+      "name": "no extra annotation text",
+      "passed": true
+    },
+    {
+      "name": "native undo available",
+      "passed": true
+    },
+    {
+      "name": "native undo removes question immediately",
+      "passed": true
+    },
+    {
+      "name": "reapply immediately after undo works",
+      "passed": true
+    },
+    {
+      "name": "different page gets separate question",
+      "passed": true
+    },
+    {
+      "name": "questions survive closing and reopening PDF",
+      "passed": true
+    },
+    {
+      "name": "persisted questions are deduplicated",
+      "passed": true
+    },
+    {
+      "name": "disable removes all buttons",
+      "passed": true
+    },
+    {
+      "name": "disable removes all styles and overlays",
+      "passed": true
+    },
+    {
+      "name": "disable removes native-window mouse burst",
+      "passed": true
+    },
+    {
+      "name": "disable drops all reader references",
+      "passed": true
+    }
+  ]
+}
